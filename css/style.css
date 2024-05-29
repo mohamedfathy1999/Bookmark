@@ -1,0 +1,132 @@
+body {
+    font-family: "PT Sans Caption", sans-serif;
+    ;
+}
+
+section {
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+
+section h1 {
+    font-size: 55px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+}
+
+section h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+section h1:hover::before {
+    height: 50%;
+}
+
+section .demo {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+
+}
+
+section .demo h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+section .demo .Name {
+    font-weight: 600;
+}
+
+section .demo .Url {
+    font-weight: 600;
+}
+
+section .demo .btn-submit {
+    color: white;
+    background-color: #d1512d;
+}
+
+section .demo .btn-submit:hover {
+    background-color: #bb4120;
+}
+
+section .btn-visit {
+    color: white;
+    background-color: #9eb23b;
+}
+
+section .btn-visit:hover {
+    color: white;
+    background-color: #88a300;
+}
+
+section .btn-delete {
+    color: white;
+    background-color: #eb1d36;
+}
+
+section .btn-delete:hover {
+    color: white;
+    background-color: #d30820;
+}
+
+.box-info {
+    background-color: #0007;
+}
+
+.box-conent {
+    width: 500px;
+    z-index: 10;
+}
+
+.box-conent p {
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+}
+
+.rules li {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.rules i {
+    color: #bb4120;
+}
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.circles span:nth-child(1) {
+    background-color: #f15f5d;
+}
+
+.circles span:nth-child(2) {
+    background-color: #febe2e;
+}
+
+.circles span:nth-child(3) {
+    background-color: #4db748;
+}
+
+.logo {
+    width: 40px;
+}
